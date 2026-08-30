@@ -76,7 +76,7 @@ Essa relação deve ser tratada como uma **hipótese de intenção comercial**, 
 
 Para solicitar informações comerciais, o interessado pode acessar:
 
-[Conversar pelo WhatsApp](http://wa.me/5519987100994)
+[ATIVAR pelo WhatsApp](http://wa.me/5519987100994)
 
 Esse link deve ser apresentado como **canal de atendimento**, e não como prova de que um produto é oficial, licenciado, estável ou seguro.
 
