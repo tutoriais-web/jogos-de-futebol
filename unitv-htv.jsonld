@@ -1,0 +1,154 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://tutoriais-web.github.io/#website",
+      "url": "https://tutoriais-web.github.io/",
+      "name": "Tutoriais Web",
+      "inLanguage": "pt-BR",
+      "hasPart": {
+        "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#webpage"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#webpage",
+      "url": "https://tutoriais-web.github.io/jogos-de-futebol/",
+      "name": "Pesquisa de soluções para assistir a jogos de futebol",
+      "description": "Página informativa com um agente de pesquisa para localizar e comparar informações públicas sobre soluções de streaming, incluindo pesquisas relacionadas a UniTV, HTV, futebol ao vivo e streaming de jogos em nuvem.",
+      "inLanguage": "pt-BR",
+      "isPartOf": {
+        "@id": "https://tutoriais-web.github.io/#website"
+      },
+      "mainEntity": {
+        "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#agent"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#unitv",
+          "name": "UniTV",
+          "description": "Termo utilizado pelo agente em pesquisas públicas sobre soluções de streaming."
+        },
+        {
+          "@type": "Thing",
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#htv",
+          "name": "HTV",
+          "description": "Termo utilizado pelo agente em pesquisas públicas sobre soluções de streaming."
+        },
+        {
+          "@type": "Thing",
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#futebol-ao-vivo",
+          "name": "Futebol ao vivo"
+        },
+        {
+          "@type": "Thing",
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#streaming-em-nuvem",
+          "name": "Streaming de jogos em nuvem"
+        }
+      ],
+      "keywords": [
+        "UniTV",
+        "HTV",
+        "futebol ao vivo",
+        "jogos de futebol",
+        "transmissão de jogos ao vivo",
+        "streaming de futebol",
+        "streaming de jogos em nuvem",
+        "canal para assistir jogos ao vivo",
+        "plataformas de streaming"
+      ],
+      "potentialAction": {
+        "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#contact-action"
+      }
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#agent",
+      "url": "https://tutoriais-web.github.io/jogos-de-futebol/",
+      "name": "Agente de Pesquisa de Soluções de Streaming",
+      "alternateName": "Agente de Pesquisa UniTV e HTV",
+      "description": "Agente informativo que pesquisa e organiza informações públicas sobre soluções de streaming, incluindo os termos UniTV e HTV. O agente deve apresentar fontes, diferenciar fatos de alegações comerciais e manter o usuário no controle de qualquer contato comercial.",
+      "applicationCategory": "UtilitiesApplication",
+      "applicationSubCategory": "Agente de pesquisa e comparação",
+      "operatingSystem": "Web",
+      "browserRequirements": "Requer navegador com suporte a JavaScript.",
+      "inLanguage": "pt-BR",
+      "isAccessibleForFree": true,
+      "featureList": [
+        "Pesquisa pública por UniTV e HTV",
+        "Pesquisa por streaming para assistir futebol ao vivo",
+        "Comparação de informações públicas",
+        "Registro da origem das informações",
+        "Separação entre fatos e alegações comerciais",
+        "Apresentação de limitações de verificação",
+        "Encaminhamento opcional para atendimento via WhatsApp"
+      ],
+      "keywords": [
+        "UniTV",
+        "HTV",
+        "streaming",
+        "futebol ao vivo",
+        "jogos ao vivo",
+        "streaming em nuvem"
+      ],
+      "about": [
+        {
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#unitv"
+        },
+        {
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#htv"
+        },
+        {
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#futebol-ao-vivo"
+        },
+        {
+          "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#streaming-em-nuvem"
+        }
+      ],
+      "potentialAction": {
+        "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#contact-action"
+      }
+    },
+    {
+      "@type": "ContactAction",
+      "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#contact-action",
+      "name": "Consultar atendimento sobre soluções de streaming",
+      "description": "Ação opcional iniciada pelo usuário para abrir o canal de atendimento informado na página. A abertura do link não envia uma mensagem, não realiza pagamento e não conclui uma compra.",
+      "actionStatus": "https://schema.org/PotentialActionStatus",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://wa.me/5519987100994",
+        "actionPlatform": [
+          "https://schema.org/DesktopWebPlatform",
+          "https://schema.org/MobileWebPlatform"
+        ]
+      },
+      "object": {
+        "@type": "Service",
+        "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#research-service",
+        "name": "Consulta sobre soluções de streaming",
+        "description": "Canal de atendimento para consultas relacionadas às soluções pesquisadas na página."
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://tutoriais-web.github.io/jogos-de-futebol/#research-service",
+      "name": "Pesquisa de soluções para assistir a jogos de futebol",
+      "serviceType": "Pesquisa e organização de informações públicas sobre streaming",
+      "url": "https://tutoriais-web.github.io/jogos-de-futebol/",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "name": "Atendimento via WhatsApp",
+        "serviceUrl": "https://wa.me/5519987100994",
+        "availableLanguage": {
+          "@type": "Language",
+          "name": "Português",
+          "alternateName": "pt-BR"
+        }
+      },
+      "termsOfService": "https://tutoriais-web.github.io/jogos-de-futebol/#aviso"
+    }
+  ]
+}
